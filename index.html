@@ -9,21 +9,124 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./images/logo flower.png" type="image/x-icon">
     <title>Plum Central</title>
 </head>
 <body>
+    <div id="mobile-nav-container" tabindex="0">
+        <i class="fa fa-bars" id="hamburger-nav" tabindex="0"></i>
+        <aside id="sidebar-mobile">
+            <div id="upper-sidebar-container-mobile">
+                <img src="./images/cm text logo.png" alt="Design Element" id="cm-text">
+                <header id="header-mobile">
+                    <a href="index.html" id="logo-mobile">
+                        <img src="./images/logo flower.png" alt="Website Logo">
+                    </a>
+                    <a href="index.html">Plum <span style="color: #ff9696;">Central</span></a>
+                </header>
+                <section id="movie-types-mobile">
+                    <ul class="nav-links">
+                        <li class="link-group">Categories</li>
+                        <a href="#featured">
+                            <li>Popular</li>
+                        </a>
+                        <a href="#movies">
+                            <li>Movies</li>
+                        </a>
+                        <a href="#tv-shows">
+                            <li>TV Shows</li>
+                        </a>
+                        <a href="#browse-all">
+                            <li>Browse All</li>
+                        </a>
+                        <a href="#reviews">
+                            <li>Reviews</li>
+                        </a>
+                    </ul>
+                </section>
+                <section id="helpful-links-mobile">
+                    <ul class="nav-links">
+                        <li class="link-group">Helpful Links</li>
+                        <a href="#faq">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="#about-us">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#footer">
+                            <li>Disclaimer</li>
+                        </a>
+                    </ul>
+                </section>
+            </div>
+            <section id="sidebar-footer-mobile">
+                <img src="./images/logo.png" alt="School Logo">
+            </section>
+        </aside>
+    </div>
+    <!-- <i class="fa fa-bars" id="hamburger-nav" tabindex="0">
+        <aside id="sidebar-mobile">
+            <div id="upper-sidebar-container-mobile">
+                <img src="./images/cm text logo.png" alt="Design Element" id="cm-text">
+                <header id="header-mobile">
+                    <a href="index.html" id="logo-mobile">
+                        <img src="./images/logo flower.png" alt="Website Logo">
+                    </a>
+                    <a href="index.html">Plum <span style="color: #ff9696;">Central</span></a>
+                </header>
+                <section id="movie-types-mobile">
+                    <ul class="nav-links">
+                        <li class="link-group">Categories</li>
+                        <a href="#featured">
+                            <li>Popular</li>
+                        </a>
+                        <a href="#movies">
+                            <li>Movies</li>
+                        </a>
+                        <a href="#tv-shows">
+                            <li>TV Shows</li>
+                        </a>
+                        <a href="#browse-all">
+                            <li>Browse All</li>
+                        </a>
+                        <a href="#reviews">
+                            <li>Reviews</li>
+                        </a>
+                    </ul>
+                </section>
+                <section id="helpful-links-mobile">
+                    <ul class="nav-links">
+                        <li class="link-group">Helpful Links</li>
+                        <a href="#faq">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="#about-us">
+                            <li>About Us</li>
+                        </a>
+                        <a href="#footer">
+                            <li>Disclaimer</li>
+                        </a>
+                    </ul>
+                </section>
+            </div>
+            <section id="sidebar-footer-mobile">
+                <img src="./images/logo.png" alt="School Logo">
+            </section>
+        </aside>
+    </i> -->
+
     <main id="main">
         <aside id="sidebar">
             <div id="upper-sidebar-container">
                 <img src="./images/cm text logo.png" alt="Design Element" id="cm-text">
                 <header id="header">
-                    <a href="/" id="logo">
+                    <a href="index.html" id="logo">
                         <img src="./images/logo flower.png" alt="Website Logo">
                     </a>
-                    <a href="/">Plum <span style="color: #ff9696;">Central</span></a>
+                    <a href="index.html">Plum <span style="color: #ff9696;">Central</span></a>
                 </header>
                 <section id="movie-types">
                     <ul class="nav-links">
@@ -78,17 +181,19 @@
                 </aside>
                 <aside id="top-list">
                     <h1>Top Rated</h1>
-                    <div class="display-block">
-                        <img src="./images/thumbnails/Slam-Dunk-1.webp" alt="Thumbnail">
-                        <p>The First Slam Dunk</p>
-                    </div>
-                    <div class="display-block">
-                        <img src="./images/thumbnails/margaret.jpg" alt="Thumbnail">
-                        <p>Are You There God? It's Me, Margaret.</p>
-                    </div>
-                    <div class="display-block">
-                        <img src="./images/thumbnails/past-lives.jpg" alt="Thumbnail">
-                        <p>Past Lives</p>
+                    <div id="block-container">
+                        <div class="display-block">
+                            <img src="./images/thumbnails/Slam-Dunk-1.webp" alt="Thumbnail">
+                            <p>The First Slam Dunk</p>
+                        </div>
+                        <div class="display-block">
+                            <img src="./images/thumbnails/margaret.jpg" alt="Thumbnail">
+                            <p>Are You There God? It's Me, Margaret.</p>
+                        </div>
+                        <div class="display-block">
+                            <img src="./images/thumbnails/past-lives.jpg" alt="Thumbnail">
+                            <p>Past Lives</p>
+                        </div>
                     </div>
                 </aside>
             </article>
